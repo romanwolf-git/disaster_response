@@ -1,0 +1,76 @@
+[
+    {
+        "data": [
+            {
+                "x": [
+                    "Category 1",
+                    "Category 2",
+                    "Category 3",
+                    "Category 4",
+                    "Category 5"
+                ],
+                "y": [10, 15, 13, 17, 12],
+                "type": "bar",
+                "marker": {"color": "#23527C"}
+            }
+        ],
+        "layout": {
+            "title": {
+                "text": "Number of Data Points per Category",
+                "x": 0.07
+            },
+            "yaxis": {
+                "title": "Count",
+                "title_font": {
+                    "size": 16
+                }
+            },
+            "xaxis": {
+                "title_font": {
+                    "size": 16
+                },
+                "tickfont": {
+                    "size": 16
+                },
+                "automargin": true
+            }
+        }
+    },
+    {
+        "data": [
+            {
+                "x": [
+                    "Genre 1",
+                    "Genre 2",
+                    "Genre 3",
+                    "Genre 4",
+                    "Genre 5"
+                ],
+                "y": [20, 25, 23, 27, 22],
+                "type": "bar",
+                "marker": {"color": "#23527C"}
+            }
+        ],
+        "layout": {
+            "title": {
+                "text": "Distribution of Message Genres",
+                "x": 0.07
+            },
+            "yaxis": {
+                "title": "Count",
+                "title_font": {
+                    "size": 16
+                }
+            },
+            "xaxis": {
+                "title": "Genre",
+                "title_font": {
+                    "size": 16
+                },
+                "tickfont": {
+                    "size": 16
+                }
+            }
+        }
+    }
+]

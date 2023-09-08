@@ -1,0 +1,25 @@
+{% extends "master.html" %}
+{% block title %}Results{% endblock %}
+
+{% block message %}
+    <hr />
+    <h4 class="text-center">MESSAGE</h4>
+    <p class="text-center"><i>{{query}}</i></p>
+{% endblock %}
+
+
+
+{% block content %}
+<h1 class="text-center">Result</h1>
+<div class="themed-container text-center">
+    <div class="row">
+        {% for category, classification in classification_result.items() %}
+        <div class="col-sm-2 p-2 rounded-box {% if classification == 1 %}custom-background{% endif %}">
+        {{ category.replace('_', ' ').title() }}
+        </div>
+        {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% endblock %}
