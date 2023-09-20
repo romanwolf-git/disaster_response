@@ -17,7 +17,7 @@ As part of my capstone project for the Udacity Data Science course, I have devel
 ## Installation <a name="installation"/>
 1. Clone repository:
 ```
-git clone https://github.com/romanwolf-git/
+git clone https://github.com/romanwolf-git/disaster_response
 ```
 
 2. Install requirements.txt
