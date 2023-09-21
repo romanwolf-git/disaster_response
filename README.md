@@ -16,25 +16,28 @@ Climate change has led to an increase in environmental disasters, making the rol
 As part of my capstone project for the Udacity Data Science course, I have developed a machine learning model using Python to address this problem. The goal of this project is to create a tool that can automatically classify text messages sent during disasters into predefined categories. This tool can assist emergency services in efficiently allocating resources and responding to critical situations during disasters.
 
 ## Installation <a name="installation"/>
-1. Clone repository and change to its directory
+1. Clone repository and change to its directory.
 ```
 git clone https://github.com/romanwolf-git/disaster_response
 ```
 
-2. Install requirements.txt
+2. Install requirements.txt. Mac users may also need 'brew install cmake libomp'.
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
-3. Change to 'data' directory and run 'process_data.py' to clean the data and store it in a database
+3. Change to 'data' directory and run 'process_data.py' to clean the data and store it in a database.
 ```
 python process_data.py messages.csv categories.csv disaster_response.db
 ```
-4. Change to 'models' directory and run 'data_pipeline.py' to train, tune and save the model
+4. Change to 'models' directory and run 'data_pipeline.py' to train, tune and save the model.
 ```
 python data_pipeline.py disaster_response.db
 ```
 5. Run 'run.py' which outputs: "Serving Flask app 'run'" and the URL (http://127.0.0.1:3000) where its run. Open the URL in your browser.
+```
+python run.py
+```
 
 ## About the Data <a name="about-the-data"/>
 In this project, I utilized two primary datasets to develop and evaluate a machine learning model:
