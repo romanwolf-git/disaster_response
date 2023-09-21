@@ -13,6 +13,7 @@ import re
 import sys
 
 from lightgbm import LGBMClassifier
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
@@ -27,6 +28,9 @@ sys.path.append('../')
 from config.definitions import root_dir
 from models.ml_smote import resample as ml_smote_resample
 
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('punkt')
 
 def tokenize(text: str, url_placeholder='url_placeholder'):
     """
