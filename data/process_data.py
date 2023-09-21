@@ -2,7 +2,7 @@
 DATA PREPROCESSING
 
 Script Execution via:
---> python process_data.py data/messages.csv data/categories.csv data/disaster_response.db
+--> python process_data.py messages.csv categories.csv disaster_response.db
 
 :param csv-file with disaster messages
 :param csv-file with disaster categories
