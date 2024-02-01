@@ -1,5 +1,5 @@
 """
-WEB APPlCICATION
+WEB APPLICATION
 
 Script Execution via:
 --> python run.py
